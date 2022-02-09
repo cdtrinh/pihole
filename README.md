@@ -1,31 +1,29 @@
 # pihole
 
 
-IFTTT
------
+IFTTT Applets
+-------------
 Block the Internet
 
 UnBlock the Internet
 
 
-Pi-hole webhooks
+Pi-hole Webhook URI's
 ----------------
-http://FQDN:9999/hooks/pihole-block
+Block:  http://FQDN:9999/hooks/pihole-block
 
-http://FQDN:9999/hooks/pihole-unblock
+Unblock:  http://FQDN:9999/hooks/pihole-unblock
 
 
 Linux Setup (Ubuntu)
 --------------------
+Install Pihole: https://docs.pi-hole.net/main/basic-install/
+
 Install webhook package from apt: sudo apt-get install webhook
+
+Clone pihole-webhook repo to the following directory /apps/webhook/
 
 Create Webhook Service:  /etc/systemd/system/webhooks.service
 
-
-Webhook App
------------
-sudo apt install webhook
-
-/apps/webhook/: Webhook config and block/unblock scripts
 
 
