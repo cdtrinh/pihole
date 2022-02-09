@@ -1,0 +1,8 @@
+[Unit]
+Description=Webhooks
+
+[Service]
+ExecStart=/bin/bash /apps/webhook/start-webhook.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,22 @@
+[
+    {
+      "id": "pihole-block",
+      "execute-command": "/apps/webhook/block.sh",
+      "command-working-directory": "/apps/webhook",
+      "response-message": "Block Complete"
+    },
+  
+    {
+      "id": "pihole-unblock",
+      "execute-command": "/apps/webhook/unblock.sh",
+      "command-working-directory": "/apps/webhook",
+      "response-message": "Unblock Complete"
+    },
+  
+      {
+      "id": "pihole-mathnasium",
+      "execute-command": "/apps/webhook/mathnasium.sh",
+      "command-working-directory": "/apps/webhook",
+      "response-message": "Mathnasium enable Complete"
+    }
+  ]
