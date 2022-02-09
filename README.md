@@ -14,7 +14,7 @@ http://azure.trinster.com:9999/hooks/pihole-unblock
 
 
 Linux Setup (Ubuntu)
------------
+--------------------
 Install webhook package from apt: sudo apt-get install webhook
 Create Webhook Service:  /etc/systemd/system/webhooks.service
 
